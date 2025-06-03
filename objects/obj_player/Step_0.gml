@@ -18,3 +18,9 @@ if(alarm[0] = -1){
 if(alarm[0] == 0){
 	var bullet = instance_create_layer(x,y,"Instances",obj_projectile)	
 }
+
+if(xp >= xpCap){
+	level += 1
+	xp = xp-xpCap
+	xpCap = 10*level
+}
