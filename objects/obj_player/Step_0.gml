@@ -13,8 +13,8 @@ if(horizontal != 0){
 	x -= horizontal
 }
 if(alarm[0] = -1){
-	alarm[0] = 300
+	alarm[0] = firerate
 }
 if(alarm[0] == 0){
-	instance_create_layer(x,y,"Instances",obj_projectile)	
+	var bullet = instance_create_layer(x,y,"Instances",obj_projectile)	
 }
