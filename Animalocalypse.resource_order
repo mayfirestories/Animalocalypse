@@ -20,10 +20,12 @@
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_projectile","order":2,"path":"objects/obj_projectile/obj_projectile.yy",},
     {"name":"obj_startbutton","order":3,"path":"objects/obj_startbutton/obj_startbutton.yy",},
+    {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"Mainmenu","order":1,"path":"rooms/Mainmenu/Mainmenu.yy",},
     {"name":"spr_background","order":3,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_enemy","order":1,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_projectile","order":2,"path":"sprites/spr_projectile/spr_projectile.yy",},
     {"name":"spr_startbutton","order":4,"path":"sprites/spr_startbutton/spr_startbutton.yy",},
+    {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
   ],
 }
