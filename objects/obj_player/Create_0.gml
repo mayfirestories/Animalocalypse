@@ -1,4 +1,4 @@
-firerate = 100
+firerate = 50
 xspd = 6
 yspd = 6
 level = 1
