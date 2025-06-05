@@ -6,3 +6,4 @@ if(place_meeting(x,y,obj_projectile)){
 	var bullet = instance_nearest(x,y,obj_projectile)
 	instance_destroy(bullet)
 }
+//Code to follow player can go here and can be done with two lines
