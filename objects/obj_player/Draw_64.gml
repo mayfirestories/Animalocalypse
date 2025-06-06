@@ -1,2 +1,2 @@
-draw_text(x,y+80,string(xp))
-draw_text(x,y+110,string(level))
+draw_text(0,0,"Level: " + string(level))
+draw_text(0,15,"Exp: " + string(xp))
