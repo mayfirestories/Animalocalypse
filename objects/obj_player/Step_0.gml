@@ -47,3 +47,19 @@ if(xp >= xpCap){
 	xp = xp-xpCap
 	xpCap = 10*level
 }
+//damage logic
+
+if(hit ==true){
+	if(alarm[1]==-1){
+		alarm[1] = 20
+	}
+	if(alarm[0]==0){
+		hit = false	
+	}
+}
+
+
+if(hp<1){
+room_restart()	
+	
+}

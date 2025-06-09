@@ -4,4 +4,6 @@ yspd = 6
 level = 1
 xpCap = 10
 xp = 0
-
+max_hp = 10
+hp = max_hp
+hit = false;
