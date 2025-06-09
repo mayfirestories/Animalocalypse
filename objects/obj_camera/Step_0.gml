@@ -1,2 +1,3 @@
-x = obj_player.x 
-y = obj_player.y
+//TODO check speed multiplier
+x += sign(obj_player.x - x)*5
+y += sign(obj_player.y - y)*5
