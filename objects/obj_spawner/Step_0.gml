@@ -1,4 +1,4 @@
-xlocation = irandom_range(0,room_width)
+xlocation = irandom_range(260,1060)
 
 
 if(instance_number(obj_enemy)<3){

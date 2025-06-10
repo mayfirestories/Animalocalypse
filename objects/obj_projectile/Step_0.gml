@@ -1,5 +1,5 @@
 
-x += xmove
+
 y += ymove
 
 lifetime -= 1
