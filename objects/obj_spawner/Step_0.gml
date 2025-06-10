@@ -1,3 +1,4 @@
+
 xlocation = irandom_range(0,room_width)
 ylocation = irandom_range(0,room_height)
 

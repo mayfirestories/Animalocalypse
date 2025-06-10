@@ -29,13 +29,7 @@ if(place_meeting(x, y + ymove, obj_wall)){
 }
 y += ymove
 
-if(alarm[0] == -1){
-	alarm[0] = firerate
-}
 
-if(alarm[0] == 0){
-	var bullet = instance_create_layer(x,y,"Instances",obj_projectile)	
-}
 //------------Level & Exp
 if(place_meeting(x,y,obj_exp)){
 	var xp_orb = instance_nearest(x,y,obj_exp)
