@@ -42,6 +42,7 @@
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_startbutton","path":"objects/obj_startbutton/obj_startbutton.yy",},},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

@@ -14,7 +14,7 @@ if(place_meeting(x,y,obj_player)){
 	}
 }
 
-y += sign(obj_player.y - y)
+y += spd
 
 switch (distance_to_object(obj_player)<100) {
 	case true:
