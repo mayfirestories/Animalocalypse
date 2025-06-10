@@ -1,6 +1,6 @@
-xlocation = irandom_range(0,room_width)
-ylocation = irandom_range(0,room_height)
+xlocation = irandom_range(260,1060)
+
 
 if(instance_number(obj_enemy)<3){
-	instance_create_layer(xlocation,ylocation,"Instances",obj_enemy)
+	instance_create_layer(xlocation,0,"Instances",obj_enemy)
 }
