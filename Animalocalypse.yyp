@@ -36,9 +36,11 @@
   },
   "name":"Animalocalypse",
   "resources":[
+    {"id":{"name":"obj_assault_rifle","path":"objects/obj_assault_rifle/obj_assault_rifle.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_exp","path":"objects/obj_exp/obj_exp.yy",},},
+    {"id":{"name":"obj_pistol","path":"objects/obj_pistol/obj_pistol.yy",},},
     {"id":{"name":"obj_player_Carlos_test","path":"objects/obj_player_Carlos_test/obj_player_Carlos_test.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},},
@@ -47,12 +49,11 @@
     {"id":{"name":"obj_sniper","path":"objects/obj_sniper/obj_sniper.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
     {"id":{"name":"obj_startbutton","path":"objects/obj_startbutton/obj_startbutton.yy",},},
+    {"id":{"name":"obj_submachinegun","path":"objects/obj_submachinegun/obj_submachinegun.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
-    {"id":{"name":"Room1_Carlos_test","path":"rooms/Room1_Carlos_test/Room1_Carlos_test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_exp","path":"sprites/spr_exp/spr_exp.yy",},},
@@ -66,7 +67,6 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Mainmenu","path":"rooms/Mainmenu/Mainmenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

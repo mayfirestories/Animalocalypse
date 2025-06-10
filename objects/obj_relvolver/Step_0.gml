@@ -11,6 +11,7 @@ if(active){
 			bullet.range = range;
 			bullet.knockback = knockback;
 			bullet.dir = i;
+			bullet.image_blend = color;
 		}
 	}
 }

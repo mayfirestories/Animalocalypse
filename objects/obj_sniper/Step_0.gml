@@ -11,6 +11,7 @@ if(active){ //This part of the code works if the sniper is on
 			bullet.range = range;
 			bullet.knockback = knockback;
 			bullet.dir = i;
+			bullet.image_blend = color;
 		}
 	}
 }

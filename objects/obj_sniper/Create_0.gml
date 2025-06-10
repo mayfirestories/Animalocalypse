@@ -1,6 +1,7 @@
-firerate = 120;
-damage = 10
-range = 300;
-knockback = 10;
-num =1;
+firerate = 300; //50
+damage = 10 //2
+range = 300; //70
+knockback = 10; //1
+num =1; //1
 active = true;//starts deactivated
+color = c_navy;
