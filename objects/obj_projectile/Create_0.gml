@@ -4,7 +4,7 @@
 range = 0;  //Very High
 spd = 5;         
 damage = 0;    //Very High
-firerate = 0;  //Very High number to produce a very low fire rate
+
 knockback = 10; //Very High
 
 dir = 90;
