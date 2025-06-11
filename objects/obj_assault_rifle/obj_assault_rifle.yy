@@ -10,8 +10,8 @@
   "name":"obj_assault_rifle",
   "overriddenProperties":[],
   "parent":{
-    "name":"projectiles",
-    "path":"folders/Objects/projectiles.yy",
+    "name":"Weapon",
+    "path":"folders/Objects/Weapon.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_assault_rifle",
+    "path":"sprites/spr_assault_rifle/spr_assault_rifle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

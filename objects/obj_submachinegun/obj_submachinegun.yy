@@ -10,8 +10,8 @@
   "name":"obj_submachinegun",
   "overriddenProperties":[],
   "parent":{
-    "name":"projectiles",
-    "path":"folders/Objects/projectiles.yy",
+    "name":"Weapon",
+    "path":"folders/Objects/Weapon.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_submachinegun",
+    "path":"sprites/spr_submachinegun/spr_submachinegun.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -10,8 +10,8 @@
   "name":"obj_relvolver",
   "overriddenProperties":[],
   "parent":{
-    "name":"projectiles",
-    "path":"folders/Objects/projectiles.yy",
+    "name":"Weapon",
+    "path":"folders/Objects/Weapon.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_revolver",
+    "path":"sprites/spr_revolver/spr_revolver.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
