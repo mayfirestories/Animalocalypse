@@ -1,5 +1,5 @@
 
-//-----------Movement Logic
+//-----------Key Pressing
 up = keyboard_check(ord("W"))
 down = keyboard_check(ord("S"))
 vertical = down-up
@@ -8,10 +8,38 @@ left = keyboard_check(ord("A"))
 right = keyboard_check(ord("D"))
 horizontal = right-left
 
+space_bar = keyboard_check_pressed(vk_space) //New
+
+
+//---------------------New
+//-------------------------Weapon Handling
+
+if(space_bar){
+	if(bag_slot=array_length(Weapon_Bag)-1){
+	bag_slot=-1;	
+	}
+	bag_slot++
+	show_debug_message(array_length(Weapon_Bag))
+	show_debug_message(bag_slot)
+	for(i=0;i<array_length(Weapon_Bag);i++){
+		if(instance_exists(Weapon_Bag[i])){
+			instance_destroy(Weapon_Bag[i])
+		}
+	}
+	
+	Weapon_Slot[0] = instance_create_layer(x,y,"Instances",Weapon_Bag[bag_slot])
+}
+
+
+
+//-----------------Weapon Handling End
+
+
+//-------------Player Movement
+//-----------Player Movement and Horizontal Collision
+
 xmove = horizontal * xspd
 ymove = vertical * yspd
-
-//-----------Player Movement and Horizontal Collision
 if(place_meeting(x + xmove, y, obj_wall)){
 	while(!place_meeting(x + sign(xmove), y, obj_wall)){
 		x += sign(xmove)
@@ -19,7 +47,7 @@ if(place_meeting(x + xmove, y, obj_wall)){
 	xmove = 0
 }
 x += xmove
-
+ 
 //-----------Player Movement and Vertical Collision
 if(place_meeting(x, y + ymove, obj_wall)){
 	while(!place_meeting(x, y + sign(ymove), obj_wall)){
@@ -29,13 +57,10 @@ if(place_meeting(x, y + ymove, obj_wall)){
 }
 y += ymove
 
-if(alarm[0] == -1){
-	alarm[0] = firerate
-}
+//-------------Player Movement End
 
-if(alarm[0] == 0){
-	var bullet = instance_create_layer(x,y,"Instances",obj_projectile)	
-}
+
+
 //------------Level & Exp
 if(place_meeting(x,y,obj_exp)){
 	var xp_orb = instance_nearest(x,y,obj_exp)
@@ -47,7 +72,7 @@ if(xp >= xpCap){
 	xp = xp-xpCap
 	xpCap = 10*level
 }
-//damage logic
+//------------------Damage Logic
 
 if(hit ==true){
 	if(alarm[1]==-1){

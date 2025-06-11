@@ -2,8 +2,8 @@ if(hp <= 0){
 	instance_destroy()
 }
 if(place_meeting(x,y,obj_projectile)){
-	hp -= obj_projectile.damage
 	var bullet = instance_nearest(x,y,obj_projectile)
+	hp -= bullet.damage
 	instance_destroy(bullet)
 }
 if(place_meeting(x,y,obj_player)){
@@ -14,7 +14,7 @@ if(place_meeting(x,y,obj_player)){
 	}
 }
 
-y += sign(obj_player.y - y)
+y += spd
 
 switch (distance_to_object(obj_player)<100) {
 	case true:
