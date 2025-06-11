@@ -16,11 +16,9 @@ space_bar = keyboard_check_pressed(vk_space) //New
 
 if(space_bar){
 	if(bag_slot=array_length(Weapon_Bag)-1){
-	bag_slot=-1;	
+	bag_slot=-1	
 	}
 	bag_slot++
-	show_debug_message(array_length(Weapon_Bag))
-	show_debug_message(bag_slot)
 	for(i=0;i<array_length(Weapon_Bag);i++){
 		if(instance_exists(Weapon_Bag[i])){
 			instance_destroy(Weapon_Bag[i])

@@ -6,7 +6,7 @@ xpCap = 10
 xp = 0
 max_hp = 10
 hp = max_hp
-hit = false;
+hit = false
 
 Weapon_Bag = array_create(0)
 Weapon_Slot = array_create(1)
@@ -27,12 +27,11 @@ Weapon_Slot[0] = instance_create_layer(x,y,"Instances",obj_assault_rifle)
 //------------Weapon equipped now and created End
 
 //----------------------Constructors For Storing sprite and Name
-Weapons = array_create(0);
+Weapons = array_create(0)
 function WeaponIcon(_spr,_name)
 constructor {
- spr = _spr;
- name = _name;
-	
+ spr = _spr
+ name = _name
 }
 
 Weapons[0] = new WeaponIcon(spr_assault_rifle,"AK-47");

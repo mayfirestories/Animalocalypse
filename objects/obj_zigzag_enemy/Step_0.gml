@@ -4,6 +4,8 @@ if(hp <= 0){
 if(place_meeting(x,y,obj_projectile)){
 	var bullet = instance_nearest(x,y,obj_projectile)
 	hp -= bullet.damage
+	x += lengthdir_x(bullet.knockback,bullet.dir)
+	y += lengthdir_y(bullet.knockback,bullet.dir)
 	instance_destroy(bullet)
 }
 if(place_meeting(x,y,obj_player)){
@@ -16,9 +18,17 @@ if(place_meeting(x,y,obj_player)){
 
 y += spd
 
+if(place_meeting(x + xmove, y, obj_wall)){
+	while(!place_meeting(x + sign(xmove), y, obj_wall)){
+		x += sign(xmove)
+	}
+	xmove = -xmove
+}
+x += xmove
+
 switch (distance_to_object(obj_player)<100) {
 	case true:
-		image_blend = c_red
+		image_blend = c_navy
 		break;
 	default:
 		image_blend = c_white
