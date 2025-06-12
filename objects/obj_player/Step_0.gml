@@ -88,5 +88,5 @@ room_restart()
 }
 
 if(place_meeting(x + xmove, y, obj_drop_reward)){
-	obj_shutgun.firerate *= 2
+	//random poweruP?
 }
