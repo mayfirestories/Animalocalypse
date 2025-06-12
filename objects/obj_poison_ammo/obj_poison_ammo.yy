@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile",
+  "%Name":"obj_poison_ammo",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projectile",
+  "name":"obj_poison_ammo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Projectile",
+    "path":"folders/Objects/Projectile.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_projectile",
-    "path":"sprites/spr_projectile/spr_projectile.yy",
+    "name":"spr_poison_ammo",
+    "path":"sprites/spr_poison_ammo/spr_poison_ammo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -10,3 +10,13 @@ function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_instanc
 	return b;
 }
 
+function getBulletFromBag(_array) {
+    var len = array_length(_array);
+    if (len > 0) {
+        var index = irandom(len - 1);
+        return _array[index];
+    } else {
+        return undefined; // or return noone, or -1 depending on your needs
+    }
+}
+

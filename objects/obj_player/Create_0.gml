@@ -43,6 +43,13 @@ Weapons[5] = new WeaponIcon(spr_submachinegun,"Machine Gun");
 
 //---------------------For Storing sprite and Name End
 
+//---------------------Setting and Storing ammo in chamber
+
+Chamber = array_create(6);
+
+
+
+
 
 
 

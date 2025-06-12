@@ -1,0 +1,1 @@
+global.MaxAmmoCapacity = 6;

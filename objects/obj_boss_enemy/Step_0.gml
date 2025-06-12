@@ -1,8 +1,8 @@
 if(hp <= 0){
 	instance_destroy()
 }
-if(place_meeting(x,y,obj_projectile)){
-	var bullet = instance_nearest(x,y,obj_projectile)
+if(place_meeting(x,y,obj_regular_ammo)){
+	var bullet = instance_nearest(x,y,obj_regular_ammo)
 	hp -= bullet.damage
 	x += lengthdir_x(bullet.knockback,bullet.dir)
 	y += lengthdir_y(bullet.knockback,bullet.dir)

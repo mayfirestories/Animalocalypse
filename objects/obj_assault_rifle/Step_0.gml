@@ -7,9 +7,10 @@ if(active){
 	}
 	if(alarm[0]==0){
 		for(i = 0;i<num;i++){
-			var bullet = Bullet_Create(x,y,damage,range,knockback,spread,obj_projectile,"Instances")
+			var next_bullet = array_pop(obj_chamber_loading.Chamber);
+			var bullet = Bullet_Create(x,y,damage,range,knockback,spread,next_bullet,"Instances")
 			
-			bullet.image_blend = color;
+			
 			
 		}
 		alarm[0] = firerate;
