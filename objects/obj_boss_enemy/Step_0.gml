@@ -15,8 +15,9 @@ if(place_meeting(x,y,obj_player)){
 	obj_player.hit = true;
 	}
 }
-
-y += spd
+//follow player
+x += sign(obj_player.x - x)
+y += sign(obj_player.y - y)
 
 switch (distance_to_object(obj_player)<100) {
 	case true:
