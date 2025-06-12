@@ -12,7 +12,7 @@ if(enemy_choice == 1){
 	}
 }
 
-if( int64(scaler % 3) == 0 && instance_number(obj_boss_enemy)<3){
+if( int64(scaler % 3) == 0 && instance_number(obj_boss_enemy)<1){
 
 	instance_create_layer(xlocation,0,"Instances",obj_boss_enemy)
 }
