@@ -6,13 +6,14 @@ if(active){
 		alarm[0] = firerate;		
 	}
 	if(alarm[0]==0){
-		for(i = 0;i<num;i++){
-			var next_bullet = array_pop(obj_chamber_loading.Chamber);
-			var bullet = Bullet_Create(x,y,damage,range,knockback,spread,next_bullet,"Instances")
-			
-			
-			
-		}
+		var result = array_shift_with_value(obj_chamber_loading.Chamber);
+        var next_bullet = result[0];
+        obj_chamber_loading.Chamber = result[1]; // update the array
+		for (var i = 0; i < num; i++) {
+            
+            var bullet = Bullet_Create(x, y, damage, range, knockback, spread, next_bullet, "Instances");
+            
+        }
 		alarm[0] = firerate;
 	}
 }

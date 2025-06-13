@@ -9,4 +9,5 @@ knockback = 10; //Very High
 
 dir = 90;
 
-
+sprite = spr_penetrating_ammo
+name = "Explosive";

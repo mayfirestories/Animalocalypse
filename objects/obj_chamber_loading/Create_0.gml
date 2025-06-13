@@ -12,11 +12,9 @@ array_push(BulletBag,obj_regular_ammo);
 //------------------Setting Bullet Bag END
 
 //------------------Placing Bullet in Bag 
-Chamber = array_create(6);
+Chamber = array_create(0);
 
-while (array_length(Chamber)<global.MaxAmmoCapacity) {
-    array_push(Chamber,getBulletFromBag(BulletBag))
-}
+
 
 //------------------Placing Bullet in Bag END
 

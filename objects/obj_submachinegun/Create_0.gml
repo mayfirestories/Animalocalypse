@@ -5,6 +5,6 @@ knockback = 1; //1
 spread = 25;
 num = 1; //1
 active = true;//starts deactivated
-color = c_maroon;
+
 
 visible = false;

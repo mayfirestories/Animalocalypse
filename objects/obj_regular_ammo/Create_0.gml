@@ -9,4 +9,5 @@ knockback = 10; //Very High
 
 dir = 90;
 
-
+sprite = spr_regular_ammo
+name = "Explosive";

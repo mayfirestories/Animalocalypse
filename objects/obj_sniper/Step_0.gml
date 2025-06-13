@@ -1,15 +1,18 @@
 x = obj_player.x //follows player
 y = obj_player.y
-if(active){ //This part of the code works if the sniper is on
+if(active){
 	if(alarm[0]==-1){
 		alarm[0] = firerate;		
 	}
 	if(alarm[0]==0){
-		for(i = 0;i<num;i++){
-			var bullet = Bullet_Create(x,y,damage,range,knockback,spread,obj_regular_ammo,"Instances")
-			
-			bullet.image_blend = color;
-			alarm[0] = firerate;
-		}
+		var result = array_shift_with_value(obj_chamber_loading.Chamber);
+        var next_bullet = result[0];
+        obj_chamber_loading.Chamber = result[1]; // update the array
+		for (var i = 0; i < num; i++) {
+            
+            var bullet = Bullet_Create(x, y, damage, range, knockback, spread, next_bullet, "Instances");
+            
+        }
+		alarm[0] = firerate;
 	}
 }

@@ -20,3 +20,22 @@ function getBulletFromBag(_array) {
     }
 }
 
+function array_fill_count(arr) {
+    var count = 0;
+    for (var i = 0; i < array_length(arr); i++) {
+        if (arr[i] != undefined) {
+            count++;
+        }
+    }
+    return count;
+}
+
+function array_shift_with_value(arr) {
+    var value = arr[0];
+    var new_arr = [];
+    for (var i = 1; i < array_length(arr); i++) {
+        array_push(new_arr, arr[i]);
+    }
+    return [value, new_arr];
+}
+
