@@ -1,0 +1,2 @@
+audio_master_gain(global.audioLevel)
+instance_deactivate_object(self)

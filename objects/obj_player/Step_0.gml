@@ -86,3 +86,7 @@ if(hp<1){
 room_restart()	
 	
 }
+
+if(place_meeting(x + xmove, y, obj_drop_reward)){
+	//random poweruP?
+}

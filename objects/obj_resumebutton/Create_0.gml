@@ -1,0 +1,2 @@
+has_been_pressed = false
+instance_deactivate_object(obj_resumebutton)
