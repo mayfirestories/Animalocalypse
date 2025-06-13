@@ -1,0 +1,7 @@
+instance_deactivate_all(true);
+instance_activate_object(obj_resumebutton)
+instance_activate_object(obj_quitbutton)
+instance_activate_object(obj_resetbutton)
+instance_activate_object(obj_volume)
+instance_activate_object(obj_volume_up)
+instance_activate_object(obj_volume_down)
