@@ -28,7 +28,11 @@ if(place_meeting(x,y,obj_player)){
 }
 //follow player
 x += sign(obj_player.x - x)
-y += sign(obj_player.y - y)
+if( y == obj_player.y || y > obj_player.y){
+	y += spd
+}else {
+	y += sign(obj_player.y - y)
+}
 
 switch (distance_to_object(obj_player)<100) {
 	case true:
@@ -40,10 +44,14 @@ switch (distance_to_object(obj_player)<100) {
 }
 
 if(alarm[11] != -1){
-	show_debug_message("Entre")
+
 	if(image_blend == c_gray){
 		image_blend = c_white
 	} else {
 		image_blend = c_gray
 	}
+}
+
+if(y > room_height){
+	instance_destroy()
 }
