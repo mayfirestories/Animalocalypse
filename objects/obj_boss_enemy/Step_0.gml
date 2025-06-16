@@ -40,7 +40,7 @@ switch (distance_to_object(obj_player)<100) {
 }
 
 if(alarm[11] != -1){
-	show_debug_message("Entre")
+
 	if(image_blend == c_gray){
 		image_blend = c_white
 	} else {
