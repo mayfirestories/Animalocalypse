@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"Buttons","folderPath":"folders/Objects/Buttons.yy","name":"Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemies","folderPath":"folders/Objects/Enemies.yy","name":"Enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Projectile","folderPath":"folders/Objects/Projectile.yy","name":"Projectile","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Upgrade","folderPath":"folders/Objects/Upgrade.yy","name":"Upgrade","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Weapon","folderPath":"folders/Objects/Weapon.yy","name":"Weapon","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -42,8 +43,10 @@
   },
   "name":"Animalocalypse",
   "resources":[
+    {"id":{"name":"obj_","path":"objects/obj_/obj_.yy",},},
     {"id":{"name":"obj_assault_rifle","path":"objects/obj_assault_rifle/obj_assault_rifle.yy",},},
     {"id":{"name":"obj_boss_enemy","path":"objects/obj_boss_enemy/obj_boss_enemy.yy",},},
+    {"id":{"name":"obj_bullet_upgrade","path":"objects/obj_bullet_upgrade/obj_bullet_upgrade.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chamber_loading","path":"objects/obj_chamber_loading/obj_chamber_loading.yy",},},
     {"id":{"name":"obj_drop_reward","path":"objects/obj_drop_reward/obj_drop_reward.yy",},},
