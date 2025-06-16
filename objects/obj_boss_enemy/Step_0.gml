@@ -28,7 +28,11 @@ if(place_meeting(x,y,obj_player)){
 }
 //follow player
 x += sign(obj_player.x - x)
-y += sign(obj_player.y - y)
+if( y == obj_player.y || y > obj_player.y){
+	y += spd
+}else {
+	y += sign(obj_player.y - y)
+}
 
 switch (distance_to_object(obj_player)<100) {
 	case true:
@@ -46,4 +50,8 @@ if(alarm[11] != -1){
 	} else {
 		image_blend = c_gray
 	}
+}
+
+if(y > room_height){
+	instance_destroy()
 }
