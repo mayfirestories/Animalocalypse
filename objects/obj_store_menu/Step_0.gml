@@ -1,4 +1,4 @@
-//move_towards_point(room_width/2,room_height/2,10)
+
 
 
 
@@ -11,3 +11,9 @@ y = lerp(y, target_y, 0.1);
 
 next.x = x;
 next.y = y;
+
+if(y<-room_height-10){ // Try changing instance_destroy. 
+	instance_destroy(next);
+	instance_destroy();	
+		
+}

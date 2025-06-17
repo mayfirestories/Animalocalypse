@@ -8,8 +8,8 @@
   "name":"obj_exp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Drops",
+    "path":"folders/Objects/Drops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

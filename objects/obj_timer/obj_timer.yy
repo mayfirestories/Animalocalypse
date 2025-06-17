@@ -10,8 +10,8 @@
   "name":"obj_timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Progression",
+    "path":"folders/Objects/Progression.yy",
   },
   "parentObjectId":null,
   "persistent":false,

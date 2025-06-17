@@ -11,8 +11,8 @@
   "name":"obj_volume_down",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"Pause",
+    "path":"folders/Objects/Buttons/Pause.yy",
   },
   "parentObjectId":null,
   "persistent":false,
