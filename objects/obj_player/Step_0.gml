@@ -32,17 +32,36 @@ x += xmove
 
 
 
-//------------Level & Exp
+//------------Level & Exp-------------------------------------------
+//Making drops
 if(place_meeting(x,y,obj_exp)){
 	var xp_orb = instance_nearest(x,y,obj_exp)
 	xp += xp_orb.xp
 	instance_destroy(xp_orb)
+}// 1. LEVEL UP (handle real XP first)
+if (xp >= xpCap) {
+    level += 1;
+    xp -= xpCap;
+    xpCap = 10 * level;
+    show_message(string(xpCap)); // Just for debugging
 }
-if(xp >= xpCap){
-	level += 1
-	xp = xp-xpCap
-	xpCap = 10*level
+
+// 2. SMOOTHLY INCREASE DISPLAYED XP
+if (xp_displayed < xp) {
+    xp_displayed += level;
+	if (xp_displayed > xp) {
+        xp_displayed = xp;
+    }
+    
 }
+// Prevent overshooting real XP
+    if (xp_displayed > xp) {
+        xp_displayed = 0;
+    }
+// 3. RESET DISPLAY WHEN BAR IS FULLY DRAWN
+
+//----------------------------------------------------------------------
+
 //------------------Damage Logic
 
 if(hit ==true){
@@ -61,5 +80,5 @@ room_restart()
 }
 
 if(place_meeting(x + xmove, y, obj_drop_reward)){
-	//random poweruP?
+	//random powerUp?
 }

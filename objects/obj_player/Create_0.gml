@@ -1,9 +1,15 @@
 
 xspd = 6
 yspd = 6
+
+//Level up Variables
 level = 1
-xpCap = 10
+xpCap = 5
 xp = 0
+xp_displayed = 0;
+
+//
+
 max_hp = 10
 hp = max_hp
 hit = false
