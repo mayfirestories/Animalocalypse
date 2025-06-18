@@ -9,21 +9,21 @@ hp = max_hp
 hit = false
 
 Weapon_Bag = array_create(0)
-Weapon_Slot = array_create(1)
+Weapon_Slot = array_create(1) // check up
 
 bag_slot = 0;
 //---------Storing weapon obj to create later
 Weapon_Bag[0] = obj_assault_rifle
 Weapon_Bag[1] = obj_pistol
 Weapon_Bag[2] = obj_relvolver
-Weapon_Bag[3] = obj_shutgun
+Weapon_Bag[3] = obj_shotgun
 Weapon_Bag[4] = obj_sniper
 Weapon_Bag[5] = obj_submachinegun
 //---------Storing weapon obj to create later End
 
 
 //------------Weapon equipped now and created
-Weapon_Slot[0] = instance_create_layer(x,y,"Instances",obj_assault_rifle)
+Weapon_Slot[0] = instance_create_layer(x,y,"Instances",Weapon_Bag[global.Character])
 //------------Weapon equipped now and created End
 
 //----------------------Constructors For Storing sprite and Name
