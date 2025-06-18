@@ -5,25 +5,7 @@ left = keyboard_check(ord("A"))
 right = keyboard_check(ord("D"))
 horizontal = right-left
 
-space_bar = keyboard_check_pressed(vk_space) //New
 
-
-//---------------------New
-//-------------------------Weapon Handling
-
-if(space_bar){
-	if(bag_slot=array_length(Weapon_Bag)-1){
-	bag_slot=-1	
-	}
-	bag_slot++
-	for(i=0;i<array_length(Weapon_Bag);i++){
-		if(instance_exists(Weapon_Bag[i])){
-			instance_destroy(Weapon_Bag[i])
-		}
-	}
-	
-	Weapon_Slot[0] = instance_create_layer(x,y,"Instances",Weapon_Bag[bag_slot])
-}
 
 
 
