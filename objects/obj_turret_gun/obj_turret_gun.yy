@@ -10,8 +10,8 @@
   "name":"obj_turret_gun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapon",
-    "path":"folders/Objects/Weapon.yy",
+    "name":"Turret",
+    "path":"folders/Objects/Turret.yy",
   },
   "parentObjectId":null,
   "persistent":false,

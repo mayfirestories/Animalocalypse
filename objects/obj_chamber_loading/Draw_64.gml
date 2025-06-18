@@ -1,4 +1,4 @@
-for (var i = 0; i < array_length(BulletBag); i++) {
+/*for (var i = 0; i < array_length(BulletBag); i++) {
 
     var obj = BulletBag[i];
     if (is_undefined(obj)) continue; // skip empty slots

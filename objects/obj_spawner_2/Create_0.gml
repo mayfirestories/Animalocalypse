@@ -3,7 +3,8 @@ enum SpawnerState {
     SPAWNING,
     BOSS_ACTIVE,
     SHOP,
-    WAIT
+    WAIT,
+	END
 }
 
 state = SpawnerState.SPAWNING;
@@ -23,5 +24,5 @@ current_wave = {
 
 spawn_timer = current_wave.spawn_rate;
 boss_timer = current_wave.boss_timer;
-boss_exists = false;
 shop_open = false;
+waveCount = 3;

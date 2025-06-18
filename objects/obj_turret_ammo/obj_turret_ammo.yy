@@ -9,8 +9,8 @@
   "name":"obj_turret_ammo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Projectile",
-    "path":"folders/Objects/Projectile.yy",
+    "name":"Turret",
+    "path":"folders/Objects/Turret.yy",
   },
   "parentObjectId":null,
   "persistent":false,
