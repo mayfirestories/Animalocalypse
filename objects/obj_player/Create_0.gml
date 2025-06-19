@@ -6,7 +6,7 @@ yspd = 6
 level = 1
 xpCap = 5
 xp = 0
-xp_displayed = 0;
+xp_pool = 0;
 
 //
 

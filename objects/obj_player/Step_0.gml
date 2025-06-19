@@ -33,33 +33,21 @@ x += xmove
 
 
 //------------Level & Exp-------------------------------------------
-//Making drops
-if(place_meeting(x,y,obj_exp)){
-	var xp_orb = instance_nearest(x,y,obj_exp)
-	xp += xp_orb.xp
-	instance_destroy(xp_orb)
-}// 1. LEVEL UP (handle real XP first)
-if (xp >= xpCap) {
-    level += 1;
-    xp -= xpCap;
-    xpCap = 10 * level;
-    show_message(string(xpCap)); // Just for debugging
-}
 
-// 2. SMOOTHLY INCREASE DISPLAYED XP
-if (xp_displayed < xp) {
-    xp_displayed += level;
-	if (xp_displayed > xp) {
-        xp_displayed = xp;
-    }
-    
-}
-// Prevent overshooting real XP
-    if (xp_displayed > xp) {
-        xp_displayed = 0;
-    }
-// 3. RESET DISPLAY WHEN BAR IS FULLY DRAWN
 
+// 2. SMOOTHLY INCREASE XP
+// Xp is added to the pool and slowly passes to the Player
+if (0 < xp_pool) {
+	
+    xp += 1;
+	xp_pool-=1
+}
+//When xp reaches xpCap, trigger level up and reset xp which keeps get xp from the pool
+if(xp>=xpCap){
+	level += 1;
+	xpCap*=level
+	xp=0;
+}
 //----------------------------------------------------------------------
 
 //------------------Damage Logic

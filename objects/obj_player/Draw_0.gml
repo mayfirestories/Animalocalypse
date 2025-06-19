@@ -16,8 +16,8 @@ draw_set_color(back_color);
 draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
 
 // Draw current health (foreground)
-var health_width = bar_width * (xp_displayed / xpCap);
-show_debug_message(xp_displayed)
+var health_width = bar_width * (xp / xpCap);
+
 draw_set_color(health_color);
 draw_rectangle(bar_x, bar_y, bar_x + health_width, bar_y + bar_height, false);
 
