@@ -46,7 +46,7 @@
     {"name":"obj_explosive_ammo","order":1,"path":"objects/obj_explosive_ammo/obj_explosive_ammo.yy",},
     {"name":"obj_GLOBALS","order":1,"path":"objects/obj_GLOBALS/obj_GLOBALS.yy",},
     {"name":"obj_incendiary_ammo","order":4,"path":"objects/obj_incendiary_ammo/obj_incendiary_ammo.yy",},
-    {"name":"obj_level_up_CONTROLLER","order":3,"path":"objects/obj_level_up_CONTROLLER/obj_level_up_CONTROLLER.yy",},
+    {"name":"obj_level_up_CONTROLLER","order":1,"path":"objects/obj_level_up_CONTROLLER/obj_level_up_CONTROLLER.yy",},
     {"name":"obj_level_up_drop","order":2,"path":"objects/obj_level_up_drop/obj_level_up_drop.yy",},
     {"name":"obj_penetrating_ammo","order":2,"path":"objects/obj_penetrating_ammo/obj_penetrating_ammo.yy",},
     {"name":"obj_pistol","order":4,"path":"objects/obj_pistol/obj_pistol.yy",},

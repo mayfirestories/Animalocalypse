@@ -9,8 +9,8 @@
   "name":"obj_level_up_CONTROLLER",
   "overriddenProperties":[],
   "parent":{
-    "name":"Drops",
-    "path":"folders/Objects/Drops.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
