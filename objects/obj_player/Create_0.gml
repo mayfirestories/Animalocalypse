@@ -1,15 +1,20 @@
 
 xspd = 6
 yspd = 6
+
+//Level up Variables
 level = 1
-xpCap = 10
+xpCap = 5
 xp = 0
+xp_pool = 0;
+//---------------------------
+
 max_hp = 10
 hp = max_hp
 hit = false
 
 Weapon_Bag = array_create(0)
-Weapon_Slot = array_create(1) // check up
+Weapon_Slot = array_create(0) // check up
 
 bag_slot = 0;
 //---------Storing weapon obj to create later

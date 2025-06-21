@@ -17,3 +17,14 @@ if(active){
 		alarm[0] = firerate;
 	}
 }
+
+
+//Only happens with level up
+if(levelGate){
+	
+	levelGate = false;
+	firerate += obj_player.firerate
+	damage += obj_player.damage
+	range += obj_player.range
+
+}

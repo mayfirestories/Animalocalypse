@@ -6,6 +6,8 @@ spread= 10;
 num = 1; //1
 active = true;//starts deactivated
 
+//When levelup
+levelGate = false;
 
 visible = false;
 

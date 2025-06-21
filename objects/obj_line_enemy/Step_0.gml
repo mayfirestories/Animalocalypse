@@ -1,4 +1,5 @@
 if(hp <= 0){
+	obj_player.xp_pool += xpGiven
 	instance_destroy()
 }
 if(place_meeting(x,y,obj_turret_ammo)){

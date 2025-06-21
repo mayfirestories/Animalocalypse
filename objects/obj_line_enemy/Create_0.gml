@@ -1,4 +1,4 @@
 hp = 10
-xpGiven = 11
+xpGiven = 5
 damage = 1
 spd = 1
