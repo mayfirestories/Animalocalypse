@@ -57,6 +57,7 @@
   "resources":[
     {"id":{"name":"fnt_Arial","path":"fonts/fnt_Arial/fnt_Arial.yy",},},
     {"id":{"name":"fnt_Goudy","path":"fonts/fnt_Goudy/fnt_Goudy.yy",},},
+    {"id":{"name":"github","path":"objects/github/github.yy",},},
     {"id":{"name":"obj_assault_rifle","path":"objects/obj_assault_rifle/obj_assault_rifle.yy",},},
     {"id":{"name":"obj_boss_enemy","path":"objects/obj_boss_enemy/obj_boss_enemy.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
