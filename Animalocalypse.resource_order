@@ -29,6 +29,7 @@
     {"name":"Ammo","order":10,"path":"folders/Sprites/Ammo.yy",},
     {"name":"Background","order":20,"path":"folders/Sprites/Background.yy",},
     {"name":"Button","order":16,"path":"folders/Sprites/Button.yy",},
+    {"name":"Tiles","order":22,"path":"folders/Sprites/Tiles.yy",},
     {"name":"LevelUp","order":21,"path":"folders/Sprites/LevelUp.yy",},
     {"name":"Store","order":19,"path":"folders/Sprites/Store.yy",},
     {"name":"Weapons","order":8,"path":"folders/Sprites/Weapons.yy",},
@@ -61,6 +62,7 @@
     {"name":"obj_spawner_2","order":2,"path":"objects/obj_spawner_2/obj_spawner_2.yy",},
     {"name":"obj_store_next_button","order":1,"path":"objects/obj_store_next_button/obj_store_next_button.yy",},
     {"name":"obj_submachinegun","order":5,"path":"objects/obj_submachinegun/obj_submachinegun.yy",},
+    {"name":"obj_tile_setter","order":2,"path":"objects/obj_tile_setter/obj_tile_setter.yy",},
     {"name":"obj_timer","order":1,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"obj_turret_ammo","order":2,"path":"objects/obj_turret_ammo/obj_turret_ammo.yy",},
     {"name":"obj_turret_gun","order":1,"path":"objects/obj_turret_gun/obj_turret_gun.yy",},
@@ -97,5 +99,6 @@
     {"name":"spr_volume_text","order":7,"path":"sprites/spr_volume_text/spr_volume_text.yy",},
     {"name":"spr_volume_up","order":5,"path":"sprites/spr_volume_up/spr_volume_up.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"Sprite36","order":23,"path":"sprites/Sprite36/Sprite36.yy",},
   ],
 }
