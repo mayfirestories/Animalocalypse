@@ -12,7 +12,10 @@
     "name":"Turret",
     "path":"folders/Objects/Turret.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_regular_ammo",
+    "path":"objects/obj_regular_ammo/obj_regular_ammo.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

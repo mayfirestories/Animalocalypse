@@ -9,6 +9,20 @@ function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_instanc
 
 	return b;
 }
+function Turret_Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_instance){
+
+	var b = instance_create_layer(_x, _y, _instance, _obj);
+	b.damage = _damage;
+	b.range = _range;
+	b.knockback = _knockback;
+	b.dir = 180; 
+	if(obj_player.x<_obj.x){
+		b.dir = 0;	
+	}
+	b.dir = irandom_range(-_spread+dir,_spread+dir);
+
+	return b;
+}
 
 function getBulletFromBag(_array) {
     var len = array_length(_array);

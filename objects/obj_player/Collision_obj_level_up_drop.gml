@@ -4,20 +4,28 @@
 switch (other.buff){
 		case "damage":
 			show_debug_message(Weapon_Slot[0].damage)
-			Weapon_Slot[0].damage += other.value;
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].damage += other.value;
+			}
 			show_debug_message(Weapon_Slot[0].damage)
 			
 		break;
 	
 		case "range":
 		show_debug_message(Weapon_Slot[0].range)
-			Weapon_Slot[0].range += other.value;
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].range += other.value;
+			}
+			
 			show_debug_message(Weapon_Slot[0].range)
 		break;
 	
 		case "firerate":
 		show_debug_message(Weapon_Slot[0].firerate)
-			Weapon_Slot[0].firerate += other.value;
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].firerate += other.value;
+			}
+			
 			show_debug_message(Weapon_Slot[0].firerate)
 		break;
 

@@ -29,9 +29,9 @@
     {"name":"Ammo","order":10,"path":"folders/Sprites/Ammo.yy",},
     {"name":"Background","order":20,"path":"folders/Sprites/Background.yy",},
     {"name":"Button","order":16,"path":"folders/Sprites/Button.yy",},
-    {"name":"Tiles","order":22,"path":"folders/Sprites/Tiles.yy",},
     {"name":"LevelUp","order":21,"path":"folders/Sprites/LevelUp.yy",},
     {"name":"Store","order":19,"path":"folders/Sprites/Store.yy",},
+    {"name":"Tiles","order":22,"path":"folders/Sprites/Tiles.yy",},
     {"name":"Weapons","order":8,"path":"folders/Sprites/Weapons.yy",},
     {"name":"icon","order":7,"path":"folders/Sprites/Weapons/icon.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
@@ -99,6 +99,5 @@
     {"name":"spr_volume_text","order":7,"path":"sprites/spr_volume_text/spr_volume_text.yy",},
     {"name":"spr_volume_up","order":5,"path":"sprites/spr_volume_up/spr_volume_up.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
-    {"name":"Sprite36","order":23,"path":"sprites/Sprite36/Sprite36.yy",},
   ],
 }
