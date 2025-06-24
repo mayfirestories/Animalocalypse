@@ -4,6 +4,7 @@ range = 100; //70
 knockback = 2; //1
 spread= 10;
 num = 1; //1
+
 active = true;//starts deactivated
 
 //When levelup

@@ -15,10 +15,8 @@ function Turret_Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_
 	b.damage = _damage;
 	b.range = _range;
 	b.knockback = _knockback;
-	b.dir = 180; 
-	if(obj_player.x<_obj.x){
-		b.dir = 0;	
-	}
+	
+	
 	b.dir = irandom_range(-_spread+dir,_spread+dir);
 
 	return b;
