@@ -48,9 +48,17 @@ switch (other.buff){
 }
 
 //Destroy gate
-with(other){
-instance_destroy()//Change for later
-
+// Destroy all gates from the previous level (if any)
+var gateLevel = obj_level_up_CONTROLLER.level[other.level];
+if (gateLevel != undefined) {
+	var old_list = gateLevel;
+	for (var i = 0; i < ds_list_size(old_list); i++) {
+		var gate = old_list[| i];
+		if (instance_exists(gate)) {
+			with (gate) instance_destroy();
+		}
+	}
+	ds_list_destroy(old_list);
 }
 
 

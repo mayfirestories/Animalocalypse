@@ -4,13 +4,7 @@ if(hp <= 0){
 }
 
 
-if(place_meeting(x,y,obj_player)){
-	if(!obj_player.hit){
 
-	obj_player.hp -= damage
-	obj_player.hit = true;
-	}
-}
 
 y += spd
 

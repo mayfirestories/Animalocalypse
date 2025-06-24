@@ -5,4 +5,5 @@ knockback = 2; //1
 spread= 10;
 num = 1; //1
 pen = 0;
+damageGate = 0.025;
 dir = 0;

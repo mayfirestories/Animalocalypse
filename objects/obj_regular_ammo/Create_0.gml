@@ -6,7 +6,8 @@ spd = 20;
 damage = 0;    //Very High
 pen = 0;
 knockback = 10; //Very High
-
+//damage the bullet does to the gate. The increase is always until it gets to 1
+damageGate = 0.05;
 dir = 90;
 
 sprite = spr_regular_ammo

@@ -1,2 +1,2 @@
 draw_self();
-draw_text(x,y,string(buff)+": "+string(value));
+draw_text(x,y,string(buff)+": "+string(value)+" %"+string(percent));

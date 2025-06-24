@@ -5,6 +5,7 @@ knockback = 1; //1
 spread = 25;
 num = 1; //1
 active = true;//starts deactivated
+damageGate = 0.05;
 pen = 0;
 
 
