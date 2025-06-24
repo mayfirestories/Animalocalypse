@@ -15,6 +15,14 @@ once = false;
 		case "firerate":
 			value = -10* percent;
 		break;
+		
+		case "multishot":
+			value = round(2*percent);
+		break;
+		
+		case "penetration":
+			value = round(2*percent);
+		break;
 	}
 }
 

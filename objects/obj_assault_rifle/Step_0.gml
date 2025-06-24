@@ -11,7 +11,7 @@ if(active){
         obj_chamber_loading.Chamber = result[1]; // update the array
 		for (var i = 0; i < num; i++) {
             
-				var bullet = Bullet_Create(x, y, damage, range, knockback, spread, next_bullet, "Instances");
+				 var bullet = Bullet_Create(x, y, damage, range, knockback, spread,pen, next_bullet, "Instances");
 			
         }
 		alarm[0] = firerate;

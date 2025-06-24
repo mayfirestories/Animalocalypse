@@ -2,24 +2,7 @@ if(hp <= 0){
 	obj_player.xp_pool += xpGiven
 	instance_destroy()
 }
-if(place_meeting(x,y,obj_turret_ammo)){
-	alarm[11] = 10
-	var bullet = instance_nearest(x,y,obj_turret_ammo)
-	hp -= bullet.damage
-	x += lengthdir_x(bullet.knockback,bullet.dir)
-	y += lengthdir_y(bullet.knockback,bullet.dir)
-	instance_destroy(bullet)
 
-}
-if(place_meeting(x,y,obj_regular_ammo)){
-	alarm[11] = 10
-	var bullet = instance_nearest(x,y,obj_regular_ammo)
-	hp -= bullet.damage
-	x += lengthdir_x(bullet.knockback,bullet.dir)
-	y += lengthdir_y(bullet.knockback,bullet.dir)
-	instance_destroy(bullet)
-	
-}
 if(place_meeting(x,y,obj_player)){
 	if(!obj_player.hit){
 
@@ -28,21 +11,7 @@ if(place_meeting(x,y,obj_player)){
 	}
 }
 //follow player
-x += sign(obj_player.x - x)
-if( y == obj_player.y || y > obj_player.y){
-	y += spd
-}else {
-	y += sign(obj_player.y - y)
-}
-
-switch (distance_to_object(obj_player)<100) {
-	case true:
-		image_blend = c_red
-		break;
-	default:
-		//image_blend = c_white
-		break;
-}
+y+=spd
 
 if(alarm[11] != -1){
 

@@ -1,21 +1,22 @@
 /// Bullet_Create(x, y, direction, damage, range, knockback, color)
-function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_instance){
+function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_obj,_instance){
 
 	var b = instance_create_layer(_x, _y, _instance, _obj);
 	b.damage = _damage;
 	b.range = _range;
 	b.knockback = _knockback;
+	b.pen = _pen;
 	b.dir = irandom_range(-_spread+90,_spread+90);
 
 	return b;
 }
-function Turret_Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_obj,_instance){
+function Turret_Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_obj,_instance){
 
 	var b = instance_create_layer(_x, _y, _instance, _obj);
 	b.damage = _damage;
 	b.range = _range;
 	b.knockback = _knockback;
-	
+	b.pen = _pen;
 	
 	b.dir = irandom_range(-_spread+dir,_spread+dir);
 

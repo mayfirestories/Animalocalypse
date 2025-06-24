@@ -99,5 +99,6 @@
     {"name":"spr_volume_text","order":7,"path":"sprites/spr_volume_text/spr_volume_text.yy",},
     {"name":"spr_volume_up","order":5,"path":"sprites/spr_volume_up/spr_volume_up.yy",},
     {"name":"spr_wall","order":5,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"Sprite36","order":1,"path":"sprites/Sprite36/Sprite36.yy",},
   ],
 }

@@ -5,6 +5,7 @@ knockback = 6; //1
 spread =2;
 num = 1; //1
 active = true;//starts deactivated
+pen = 0;
 
 
 visible = false;

@@ -140,6 +140,7 @@
     {"id":{"name":"spr_volume_text","path":"sprites/spr_volume_text/spr_volume_text.yy",},},
     {"id":{"name":"spr_volume_up","path":"sprites/spr_volume_up/spr_volume_up.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
     {"id":{"name":"tls_room_1","path":"tilesets/tls_room_1/tls_room_1.yy",},},
   ],
   "resourceType":"GMProject",

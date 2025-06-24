@@ -2,12 +2,17 @@
 
 // Set up the bullet's lifetime, speed, and damage
 range = 0;  //Very High
-spd = 5;         
+spd = 20;         
 damage = 0;    //Very High
-penetrating = 1;
+pen = 0;
 knockback = 10; //Very High
 
 dir = 90;
 
 sprite = spr_regular_ammo
-name = "Explosive";
+name = "Regular";
+
+
+
+//TO check which enemies have been hit
+hit_enemies = ds_list_create()

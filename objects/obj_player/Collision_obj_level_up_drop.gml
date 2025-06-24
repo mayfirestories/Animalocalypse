@@ -28,6 +28,22 @@ switch (other.buff){
 			
 			show_debug_message(Weapon_Slot[0].firerate)
 		break;
+		case "multishot":
+		show_debug_message(Weapon_Slot[0].num)
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].num += other.value;
+			}
+			
+			show_debug_message(Weapon_Slot[0].num)
+		break;
+		case "penetration":
+		show_debug_message(Weapon_Slot[0].pen)
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].pen += other.value;
+			}
+			
+			show_debug_message(Weapon_Slot[0].pen)
+		break;
 
 }
 
