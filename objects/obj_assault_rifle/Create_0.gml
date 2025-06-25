@@ -7,6 +7,7 @@ num = 1; //1
 pen = 0;
 damageGate = 0.05;
 active = true;//starts deactivated
+boing = 1;
 
 //When levelup
 levelGate = false;

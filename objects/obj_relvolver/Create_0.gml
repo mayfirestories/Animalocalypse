@@ -7,6 +7,6 @@ num = 1; //1
 active = true;//starts deactivated
 damageGate = 0.25;
 pen = 0;
-
+boing = 0;
 
 visible = false;

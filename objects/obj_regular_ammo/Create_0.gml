@@ -9,7 +9,7 @@ knockback = 10; //Very High
 //damage the bullet does to the gate. The increase is always until it gets to 1
 damageGate = 0.05;
 dir = 90;
-
+boing = 0;
 sprite = spr_regular_ammo
 name = "Regular";
 

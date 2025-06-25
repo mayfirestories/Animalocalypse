@@ -8,27 +8,8 @@ if(other.percent<1){
 } 
 
 with(other){
-switch (buff){
-		case "damage":
-			value = round(2* percent)
-		break;
-	
-		case "range":
-			value = round(50* percent);
-		break;
-	
-		case "firerate":
-			value = round(-10* percent);
-		break;
-		
-		case "multishot":
-			value = round(2*percent);
-		break;
-		
-		case "penetration":
-			value = round(2*percent);
-		break;
-	}	
+		//Check Script for Code
+	value = weaponBuff(buff,percent);
 }
-show_debug_message(other.percent)
+
 instance_destroy();

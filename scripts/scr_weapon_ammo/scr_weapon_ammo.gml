@@ -53,3 +53,31 @@ function array_shift_with_value(arr) {
     return [value, new_arr];
 }
 
+function weaponBuff(_buff,_percent){
+	var _value
+	switch (_buff){
+		
+		case "damage"://level 2
+			_value = 1.5* _percent
+		break;
+	
+		case "range"://level 1
+			_value = 1.5* _percent
+		break;
+		
+		case "firerate"://level 2 
+			_value = 1.4-0.8*_percent //Fire rate has to be a lower number to shoot faster
+		break;
+		
+		case "multishot"://level 3
+			_value = round(1*_percent);
+		break;
+		
+		case "penetration"://level 2
+			_value = round(2*_percent);
+		break;
+		
+	}	
+	return  _value;
+}
+

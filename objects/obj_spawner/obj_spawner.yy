@@ -10,8 +10,8 @@
   "name":"obj_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Progression",
-    "path":"folders/Objects/Progression.yy",
+    "name":"Progression Control",
+    "path":"folders/Objects/Progression Control.yy",
   },
   "parentObjectId":null,
   "persistent":false,

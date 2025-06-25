@@ -9,8 +9,9 @@ if(active){
         var next_bullet = result[0];
         obj_chamber_loading.Chamber = result[1]; // update the array
 		for (var i = 0; i < num; i++) {
-            
-				 var bullet = Bullet_Create(x, y, damage, range, knockback, spread,pen,damageGate, next_bullet, "Instances");
+			// Para crear proximas balas en spread ya que la sniper no tiene spread
+				var _x = choose(x+i*5,x-i*5) 
+				var bullet = Bullet_Create(_x, y+i*10, damage, range, knockback, spread,pen,damageGate, next_bullet, "Instances");
             
         }
 		alarm[0] = firerate;

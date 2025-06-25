@@ -12,7 +12,7 @@ state = SpawnerState.SPAWNING;
 // Wave data — this can be swapped later
 current_wave = {
     enemies: [
-        { obj: obj_line_enemy, weight: 80 },
+        { obj: obj_enemy_line_slime, weight: 80 },
         { obj: obj_zigzag_enemy, weight: 20 }
     ],
     spawn_rate: 80, // frames between spawns

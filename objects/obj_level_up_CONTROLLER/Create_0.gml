@@ -5,3 +5,5 @@ Buff[1] = "range";
 Buff[2] = "firerate";
 Buff[3] = "multishot";
 Buff[4] = "penetration";
+
+createdGate = 0;
