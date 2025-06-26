@@ -7,7 +7,7 @@ switch(state) {
         // Spawn enemy
         if (spawn_timer <= 0) {
             spawn_timer = current_wave.spawn_rate;
-            instance_create_layer(irandom_range(260,1060), y, "Instances", get_random_enemy());
+            instance_create_layer(irandom_range(64,room_width-64), y, "Instances", get_random_enemy());
         }
 
         // Boss time
