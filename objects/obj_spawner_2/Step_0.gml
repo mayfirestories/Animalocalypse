@@ -12,7 +12,7 @@ switch(state) {
 
         // Boss time
         if (boss_timer <= 0) {
-            var boss = instance_create_layer(irandom_range(260,1060), y, "Instances", obj_boss_enemy);
+            var boss = instance_create_layer(irandom_range(64,room_width-64), y, "Instances", obj_boss_enemy);
            
             state = SpawnerState.BOSS_ACTIVE;
         }

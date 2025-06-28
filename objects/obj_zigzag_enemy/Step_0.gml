@@ -39,10 +39,10 @@ var view_right  = view_left + camera_get_view_width(view_camera[0]);
 var view_bottom = view_top + camera_get_view_height(view_camera[0]);
 
 // Check if the instance is outside of the view
-if (x < view_left - sprite_width || x > view_right + sprite_width ||
-    y < view_top - sprite_height || y > view_bottom + sprite_height) {
+if (x < view_left - abs(sprite_width) || x > view_right + abs(sprite_width) ||
+    y < view_top - abs(sprite_height) || y > view_bottom + abs(sprite_height)) {
     instance_destroy();
-	show_message("dead")
+
 }
 //-----------------------------------------------------------------------
 
