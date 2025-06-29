@@ -25,3 +25,12 @@ if (x < view_left - sprite_width || x > view_right + sprite_width ||
     instance_destroy();
 }
 //---------------------------------------------------------------------------------
+
+//-----------------Glow effect animation
+if(abs(glow)>maxGlowRadius||abs(glow)<minGlowRadius){
+glowSpeed = -glowSpeed
+}
+
+glow += glowSpeed;
+
+//--------------------------------------

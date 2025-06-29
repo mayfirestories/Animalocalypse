@@ -22,9 +22,9 @@ function set_next_wave() {
     current_wave = {
 		//Still need work para poder scale enemy spawns
         enemies: [
-            { obj: obj_enemy_line_slime, weight: 80 },
+            { obj: obj_enemy_line_slime, weight: 65 },
             { obj: obj_zigzag_enemy, weight: 20 },
-            { obj: obj_boss_enemy, weight: 0 }
+            { obj: obj_enemy_explosive_slime, weight: 15 }
         ],
         spawn_rate: current_wave.spawn_rate*0.5,
         boss_timer: current_wave.boss_timer*2,
