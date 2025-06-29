@@ -11,7 +11,7 @@ if(active){
 		for (var i = 0; i < num; i++) {
 			// Para crear proximas balas en spread ya que la sniper no tiene spread
 				var _x = choose(x+i*5,x-i*5) 
-				var bullet = Bullet_Create(_x, y+i*10, damage, range, knockback, spread,pen,damageGate, next_bullet, "Instances");
+				 var bullet = Bullet_Create(x, y, damage, range, knockback, spread,pen,bounce,damageGate, next_bullet, "Instances");
             
         }
 		alarm[0] = firerate;
