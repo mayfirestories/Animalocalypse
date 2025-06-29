@@ -3,11 +3,7 @@ spd = 5;
 damage = 1;    //Very High
 penetrating = 1;
 knockback = 10; //Very High
+spread = 10;
+dir = 0;
 
-
-if(x-obj_player.x < 0){
-	dir = 0
-}
-else {
-	dir = 180	
-}
+hit_enemies = ds_list_create()

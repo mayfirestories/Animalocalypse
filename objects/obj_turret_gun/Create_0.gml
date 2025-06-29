@@ -1,6 +1,9 @@
 firerate = 30; //50
 damage = 1; //2
-range = 30; //70
+range = 180; //70
 knockback = 2; //1
 spread= 10;
 num = 1; //1
+pen = 0;
+damageGate = 0.025;
+dir = 0;

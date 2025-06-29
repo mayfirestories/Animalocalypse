@@ -29,6 +29,7 @@ Weapon_Bag[5] = obj_submachinegun
 
 //------------Weapon equipped now and created
 Weapon_Slot[0] = instance_create_layer(x,y,"Instances",Weapon_Bag[global.Character])
+
 //------------Weapon equipped now and created End
 
 //----------------------Constructors For Storing sprite and Name
@@ -51,6 +52,7 @@ Weapons[5] = new WeaponIcon(spr_submachinegun,"Machine Gun");
 //---------------------Setting and Storing ammo in chamber
 
 Chamber = array_create(6);
+
 
 
 
