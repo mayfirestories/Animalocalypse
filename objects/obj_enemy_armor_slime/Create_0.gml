@@ -10,5 +10,7 @@ maxGlowRadius = 1;
 glow = minGlowRadius
 //-------------------
 
-
-penetrable = true;
+//armor---------------
+penetrable = false;
+image_blend = c_black;
+image_xscale = 1.5;

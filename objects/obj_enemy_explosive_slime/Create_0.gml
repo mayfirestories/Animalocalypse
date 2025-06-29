@@ -23,6 +23,8 @@ explosionSize = 2;
 enemyHit = ds_list_create()
 //---------------------------------
 
+penetrable = true;
+
 
 
 
