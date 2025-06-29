@@ -66,11 +66,11 @@ function weaponBuff(_buff,_percent){
 		break;
 		
 		case "firerate"://level 2 
-			_value = 1.4-0.8*_percent //Fire rate has to be a lower number to shoot faster
+			_value = 1.5-1*_percent //Fire rate has to be a lower number to shoot faster
 		break;
 		
 		case "multishot"://level 3
-			_value = round(1*_percent);
+			_value = round(2*_percent);
 		break;
 		
 		case "penetration"://level 2
