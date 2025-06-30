@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_slime_tree",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_slime_tree_roots",
+  "eventList":[],
   "managed":true,
-  "name":"obj_enemy_slime_tree",
+  "name":"obj_slime_tree_roots",
   "overriddenProperties":[],
   "parent":{
     "name":"SlimeTree",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_slime_tree_roots",
+    "path":"sprites/spr_slime_tree_roots/spr_slime_tree_roots.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
