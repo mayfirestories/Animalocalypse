@@ -40,7 +40,7 @@ switch (other.buff){
 		case "bounce":
 
 			for(i=0;i<array_length(Weapon_Slot);i++){
-				Weapon_Slot[i].boing += other.value;
+				Weapon_Slot[i].bounce += other.value;
 			}
 
 		break;

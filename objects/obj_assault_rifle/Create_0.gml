@@ -5,12 +5,13 @@ knockback = 2; //1
 spread= 10;
 num = 1; //1
 pen = 0;
+bounce = 0;
 damageGate = 0.05;
 active = true;//starts deactivated
-boing = 1;
+
 
 //When levelup
 levelGate = false;
 
-visible = false;
+visible = true;
 
