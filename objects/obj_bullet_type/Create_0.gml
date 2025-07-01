@@ -1,0 +1,1 @@
+Chamber = [obj_regular_ammo]

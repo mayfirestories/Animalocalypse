@@ -1,15 +1,17 @@
 
 if (ds_list_find_index(hit_enemies, other.id) == -1) {
     ds_list_add(hit_enemies, other.id);
+	//Bounce off of armored things
 	if(bounce>0&&!other.penetrable){
 		bounce--;
 		boing = true;
-	
+		
 	} else{
 	
 		pen--;
-		if(other.penetrable&&bounce<0){
-		
+//If it doesnt have any more bounce, it cant bounce of armor nor can it penetrate
+		if(!other.penetrable&&bounce<=0){
+			
 			pen = -1;	
 		}
 		
