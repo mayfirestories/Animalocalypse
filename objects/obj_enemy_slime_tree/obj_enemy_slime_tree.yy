@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawner_2",
+  "%Name":"obj_enemy_slime_tree",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spawner_2",
+  "name":"obj_enemy_slime_tree",
   "overriddenProperties":[],
   "parent":{
-    "name":"Progression Control",
-    "path":"folders/Objects/Progression Control.yy",
+    "name":"SlimeTree",
+    "path":"folders/Objects/Enemies/SlimeTree.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,5 +1,5 @@
 /// Bullet_Create(x, y, direction, damage, range, knockback, color)
-function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_gate,_obj,_instance){
+function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_bounce,_gate,_obj,_instance){
 
 	var b = instance_create_layer(_x, _y, _instance, _obj);
 	b.damage = _damage;
@@ -8,6 +8,7 @@ function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_gate,_o
 	b.pen = _pen;
 	b.damageGate = _gate;
 	b.dir = irandom_range(-_spread+90,_spread+90);
+	b.bounce = _bounce;
 
 	return b;
 }
@@ -20,6 +21,7 @@ function Turret_Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_
 	b.pen = _pen;
 	b.damageGate = _gate;
 	b.dir = irandom_range(-_spread+dir,_spread+dir);
+	
 
 	return b;
 }
@@ -74,6 +76,9 @@ function weaponBuff(_buff,_percent){
 		break;
 		
 		case "penetration"://level 2
+			_value = round(2*_percent);
+		break;
+		case "bounce"://level 2
 			_value = round(2*_percent);
 		break;
 		
