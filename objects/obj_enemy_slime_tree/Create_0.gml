@@ -1,7 +1,7 @@
 trunkNum = irandom_range(4,6);
 treeTrunks = array_create(trunkNum);
-treeTrunkHeight = 32; // Adjust depending on your sprite height
-
+treeTrunkHeight = sprite_get_height(spr_slime_tree_trunk); // Adjust depending on your sprite height
+treeBrushHeight = sprite_get_height(spr_slime_tree_leaves);
 
 //Creates the roots first
 treeRoot = instance_create_layer(x, y+treeTrunkHeight, "Instances", obj_slime_tree_roots);
@@ -13,7 +13,6 @@ for(var i=0;i<trunkNum;i++){
     treeTrunks[i] = t;
 }
 
-
-treeBush = instance_create_layer(x, y - (trunkNum * treeTrunkHeight+16), "Instances", obj_slime_tree_leaves);
-
+var top_y = y - (trunkNum * treeTrunkHeight);
+treeBush = instance_create_layer(x, top_y - treeBrushHeight*3 / 8, "Instances", obj_slime_tree_leaves);
 mark_for_update = false;

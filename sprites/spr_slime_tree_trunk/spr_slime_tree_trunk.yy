@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"SlimeTree",
-    "path":"folders/Sprites/SlimeTree.yy",
+    "path":"folders/Sprites/Enemy/SlimeTree.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

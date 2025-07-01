@@ -25,7 +25,7 @@ if (mark_for_update) {
 
     // Move bush down too
   if (instance_exists(treeBush)) {
-    treeBush.target_y = y - (new_index * treeTrunkHeight + 16);
+    treeBush.target_y = y - (new_index * treeTrunkHeight + treeBrushHeight*3/8);
 }
     // If all trunks are gone, destroy the whole tree
     var all_destroyed = true;

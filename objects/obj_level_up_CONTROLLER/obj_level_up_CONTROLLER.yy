@@ -10,8 +10,8 @@
   "name":"obj_level_up_CONTROLLER",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objects/Player.yy",
+    "name":"levelUp",
+    "path":"folders/Objects/Player/levelUp.yy",
   },
   "parentObjectId":null,
   "persistent":false,

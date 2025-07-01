@@ -52,7 +52,7 @@
   "origin":9,
   "parent":{
     "name":"Slime",
-    "path":"folders/Sprites/Slime.yy",
+    "path":"folders/Sprites/Enemy/Slime.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
