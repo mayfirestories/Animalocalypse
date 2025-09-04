@@ -27,6 +27,7 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Ammo","order":10,"path":"folders/Sprites/Ammo.yy",},
+    {"name":"Projectile","order":5,"path":"folders/Sprites/Ammo/Projectile.yy",},
     {"name":"Background","order":20,"path":"folders/Sprites/Background.yy",},
     {"name":"Button","order":16,"path":"folders/Sprites/Button.yy",},
     {"name":"Slime","order":23,"path":"folders/Sprites/Slime.yy",},
@@ -34,7 +35,11 @@
     {"name":"Store","order":19,"path":"folders/Sprites/Store.yy",},
     {"name":"Tiles","order":22,"path":"folders/Sprites/Tiles.yy",},
     {"name":"Weapons","order":8,"path":"folders/Sprites/Weapons.yy",},
+<<<<<<< Updated upstream
     {"name":"icon","order":7,"path":"folders/Sprites/Weapons/icon.yy",},
+=======
+    {"name":"icon","order":6,"path":"folders/Sprites/Weapons/icon.yy",},
+>>>>>>> Stashed changes
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],

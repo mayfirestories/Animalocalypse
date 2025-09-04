@@ -2,12 +2,22 @@
 function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_gate,_obj,_instance){
 
 	var b = instance_create_layer(_x, _y, _instance, _obj);
+<<<<<<< Updated upstream
 	b.damage = _damage;
 	b.range = _range;
 	b.knockback = _knockback;
 	b.pen = _pen;
 	b.damageGate = _gate;
 	b.dir = irandom_range(-_spread+90,_spread+90);
+=======
+	b.damage += _damage;
+	b.range += _range;
+	b.knockback += _knockback;
+	b.pen += _pen;
+	b.damageGate += _gate;
+	b.dir = irandom_range(-_spread+b.dir,_spread+b.dir);
+	b.bounce += _bounce;
+>>>>>>> Stashed changes
 
 	return b;
 }
