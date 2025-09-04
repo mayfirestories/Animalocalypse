@@ -7,7 +7,7 @@ function Bullet_Create(_x, _y, _damage, _range, _knockback,_spread,_pen,_bounce,
 	b.knockback += _knockback;
 	b.pen += _pen;
 	b.damageGate += _gate;
-	b.dir = irandom_range(-_spread+90,_spread+90);
+	b.dir = irandom_range(-_spread+b.dir,_spread+b.dir);
 	b.bounce += _bounce;
 
 	return b;

@@ -13,5 +13,5 @@ active = true;//starts deactivated
 //When levelup
 levelGate = false;
 
-visible = true;
+visible = false;
 
