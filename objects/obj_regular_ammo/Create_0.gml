@@ -4,14 +4,26 @@
 range = 0;  //Very High
 spd = 20;         
 damage = 0;    //Very High
-pen = 0;
+pen =0;
+spread = 0;
+//
+bounce = 0;
+boing = false;
+
+//
 knockback = 10; //Very High
 //damage the bullet does to the gate. The increase is always until it gets to 1
 damageGate = 0.05;
-dir = 90;
-boing = 0;
+if(instance_exists(obj_enemy)){
+	var enemyL = instance_nearest(x,y,obj_enemy)
+	dir = point_direction(x,y,enemyL.x,enemyL.y) 
+} else{
+	dir = 90;
+}
 sprite = spr_regular_ammo
 name = "Regular";
+
+
 
 
 

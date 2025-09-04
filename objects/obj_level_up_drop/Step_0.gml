@@ -51,6 +51,14 @@ if(percent>=1){
 			}
 
 		break;
+		
+		case "bounce":
+
+			for(i=0;i<array_length(Weapon_Slot);i++){
+				Weapon_Slot[i].bounce += value;
+			}
+
+		break;
 
 	}
 	var gateLevel = obj_level_up_CONTROLLER.level[level];
